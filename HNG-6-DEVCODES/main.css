@@ -91,13 +91,13 @@
     font-size: 30px;
     text-align: center;
     color: #80CBC4;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
     text-decoration: none;
 }
 
 .name{
     text-align:center; 
-    margin-bottom: 80px;
+    margin-bottom: 40px;
     margin-top: 20px;
 }
 
@@ -111,7 +111,7 @@ span{
     color: #80CBC4;
 }
 
-input[type=text], input[type=password]{
+input[type=text], input[type=email], input[type=password]{
     background: #FFFFFF;
     border: 2px solid #00695C;
     box-sizing: border-box;
@@ -189,12 +189,30 @@ input[type=password], select {
   font-weight: bold;
 }
 
+.signUp{
+    background-color: #009688;
+    border: none;
+    color: white;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px 2px;
+    border-radius: 50px;
+    font-family: Karla;
+    font-weight: bold;
+  }
+
 .input{
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 0px;
 }
 .input1{
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 0px;
 }
 
@@ -211,3 +229,8 @@ hr {
     color: #009688;
 }
 
+#errorBox{
+    color:#F00;
+    margin-top: 10px;
+    text-align: center;
+    }

@@ -23,7 +23,9 @@
 				}
 			}
 
-			if (isValid) alert('login successful');
-			else alert('login failed!');
+			if (isValid){
+				alert('login successful');
+				window.open("welcome.html"); 			
+			}else alert('login failed!');
 		}
 	}
